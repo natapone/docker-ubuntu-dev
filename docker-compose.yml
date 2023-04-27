@@ -11,3 +11,7 @@ services:
     # ports is used to expose any port in the container to the host is in the format <port host>:<port container>
     ports:
       - '2222:22'
+
+    # volumes is used to mount paths or named volumes
+    volumes:
+      - ./src:/src
